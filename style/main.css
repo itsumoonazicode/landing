@@ -1,0 +1,66 @@
+.jumbotron-extend {
+    position: relative;
+    height: 100vh;
+    min-height: 300px;
+    background: url(../imgs/FH000037.jpg) no-repeat center center;
+    background-size: cover;
+}
+.jumbotron-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.site-name {
+    font-family: 'Major Mono Display', monospace;
+    color: #fff;
+    /* font-family: 'B612 Mono', monospace; */
+}
+.sns-btn {
+    position: absolute;
+    left: 80px;
+    bottom: 90px;
+}
+
+.contents {
+    display: flex;
+    max-width: 990px;
+}
+.content-primary {
+    margin-right: 6vw;
+    width: 52.08%;
+}
+.ava-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+.post-item-header .media-body .media-heading,
+.post-item-header .media-body .updated {
+    font-size: 20px;
+}
+.media-left {
+    margin-right: 16px;
+}
+.post-item-image > img {
+    width: 100%;
+}
+.content-secondary {
+    width: 37.92%;
+}
+.description {
+    margin-bottom: 30px;
+}
+.feature-image {
+    margin-bottom: 26px;
+}
+.feature-image > img {
+    width: 100%;
+}
+.feature-image .image {
+    width: 45.6%;
+}
+.feature-image .image > img {
+    width: 100%;
+}
