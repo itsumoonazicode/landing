@@ -43,6 +43,9 @@
 .media-left {
     margin-right: 16px;
 }
+.post-item-image {
+    margin-bottom: 16px;
+}
 .post-item-image > img {
     width: 100%;
 }
